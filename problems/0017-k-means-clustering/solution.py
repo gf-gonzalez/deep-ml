@@ -22,6 +22,6 @@ def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroid
 		centroids = new_centroids
 		max_iterations = max_iterations - 1
 		
-	final_centroids = new_centroids
+	final_centroids = centroids
 
 	return final_centroids
