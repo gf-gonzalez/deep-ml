@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**11** solved · 11 problems · 0 labs · 0 math
+**12** solved · 12 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -23,6 +23,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-09-29 | [solution](problems/0053-implement-self-attention-mechanism) |
 | [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-09-28 | [solution](problems/0017-k-means-clustering) |
 | [Principal Component Analysis (PCA) Implementation](https://www.deep-ml.com/problems/19) | medium | 2026-09-28 | [solution](problems/0019-principal-component-analysis-pca-implementation) |
+| [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-09-30 | [solution](problems/0094-implement-multi-head-attention) |
 
 ---
 
