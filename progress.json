@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:26:15.461Z",
+  "generated_at": "2026-10-01T01:38:35.580Z",
   "items": {
     "problem:14": {
       "kind": "problem",
@@ -182,6 +182,19 @@
       "last_pushed_at": "2026-10-01T01:26:14.320Z",
       "language": "python",
       "lines": 26
+    },
+    "problem:223": {
+      "kind": "problem",
+      "id": "223",
+      "title": "QLoRA: Quantized Low-Rank Adaptation Forward Pass",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/223",
+      "path": "problems/0223-qlora-quantized-low-rank-adaptation-forward-pass",
+      "first_solved_at": "2026-10-01T01:38:34.844Z",
+      "last_pushed_at": "2026-10-01T01:38:34.844Z",
+      "language": "python",
+      "lines": 33
     }
   }
 }
