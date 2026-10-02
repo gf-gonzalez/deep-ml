@@ -16,7 +16,7 @@ def diffusion_loss(x_0: np.ndarray, t: int, beta_start: float, beta_end: float, 
     Returns:
         Mean squared error loss (float)
     """
-    betas = np.arange(beta_start, beta_end+(1/(num_timesteps-1))*(beta_end - beta_start), (1/(num_timesteps-1))*(beta_end - beta_start))
+    betas = np.linspace(beta_start, beta_end, num_timesteps)
     alphas = 1 - betas
     alpha_bar_t = np.cumprod(alphas)[t - 1]
     x_t = np.sqrt(alpha_bar_t) * x_0 + np.sqrt(1 - alpha_bar_t) * noise
